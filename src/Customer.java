@@ -57,7 +57,7 @@ public class Customer {
             money += coffeePrice;
             System.out.println(name + "현재 남은 잔고: " + money + "원");
         }
-
+//test
         else {
             hasCoffee = true;
             System.out.println(name + " " + coffee + "를 받았습니다.");
