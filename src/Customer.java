@@ -50,7 +50,8 @@ public class Customer {
 
     public  void takeCoffee(Barista barista, String coffee){
         if(coffee.equals("0")){
-            int coffeePrice = barista.returnMoney(barista.getCoffeePrice());
+            int price = barista.getCoffeePrice();
+            int coffeePrice = barista.returnMoney(price);
             money += coffeePrice;
             System.out.println(name + "현재 남은 잔고: " + money + "원");
         }
